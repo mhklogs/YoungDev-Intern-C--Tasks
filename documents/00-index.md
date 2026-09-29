@@ -4,19 +4,19 @@
 > static analysis of the source tree on **2026-09-28**. Functional requirements,
 > use cases, the data-flow diagram and the architecture summary describe code
 > that actually exists. Non-functional requirements contain targets that were
-> **not** measured and are marked `[TO BE MEASURED]`. The market analysis is a
-> **template only** — no market figures were invented. Fill it in from real
-> research.
+> **not** measured and are marked `[TO BE MEASURED]`. Market analysis is research-based;
+> unverifiable figures are marked `[TO BE VALIDATED]`.
 
 | Document | Contents |
 | --- | --- |
 | `README.md` | Project readme (copy of the repository root readme) |
-| `01-market-analysis.md` | Template — requires real market research |
+| `01-market-analysis.md` | Research-based competitive market analysis |
 | `02-functional-requirements.md` | FR-001… derived from detected routes and modules |
 | `03-non-functional-requirements.md` | NFR-001… inferred from the stack, targets unmeasured |
 | `04-data-flow-diagram.md` | DFD context + level-0, Mermaid |
 | `05-use-cases.md` | Use cases derived from detected user-facing routes |
 | `06-architecture.md` | Detected components, data stores, integrations, env vars |
+| `07-sdlc-lifecycle.md` | SDLC methodology for this build & artifact traceability |
 
 ## Detected at a glance
 
